@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Arcade Game</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Arcade Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet prefetch"
+  href="https://fonts.googleapis.com/css?family=VT323&display=swap">
 </head>
+
 <body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
+  <div class="start-modal">
+    <h1>Arcade Game</h1>
+    <p>Use your keyboard ◀️ 🔼 ▶️ 🔽 to play.</p>
+    <button class="start-button" onclick="startGame()">Let's start!</button>
+  </div>
+  <div class="win-modal">
+    <h1>You're a winner!</h1>
+    <p>Condragulations, my dear!</p>
+    <button class="start-button" onclick="restartGame()">Play again</button>
+  </div>
+  <div class="lose-modal">
+    <h1>You're caught!</h1>
+    <p>Watch out for the bugs!</p>
+    <button class="start-button" onclick="restartGame()">Try again</button>
+  </div>
+  <div class="overlay"></div>
+  <div class="title">
+    <h1>Arcade Game</h1>
+  </div>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+  <div class="credits">
+    <p>Credits: <a href="http://www.udacity.com">Udacity</a> and
+      <a href="https://github.com/txago">Thiago Menezes</a></p>
+  </div>
 </body>
+
 </html>

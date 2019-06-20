@@ -1,11 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   width: 100%;
   height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  background-color: #545250;
+  background-color: #192033;
   display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  font-family: 'VT323', monospace;
+  color: #fff;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.title, .credits {
+  width: 100%;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 60px;
+  display: block;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 21px;
+  display: block;
+  margin: 0;
+}
+
+a {
+  color: #5fc148;
+}
+
+canvas {
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+button {
+  font-family: 'VT323', monospace;
+  color: #fff;
+  text-transform: uppercase;
+  background: #5fc148;
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  line-height: 30px;
+  border: none;
+  border-bottom: 4px solid #52864c;
+  padding: 10px 25px;
+}
+
+.start-modal, .win-modal, .lose-modal {
+  width: 520px;
+  height: auto;
+  background: #192033;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding: 40px;
+  z-index: 2;
+  display: none;
+}
+
+.start-modal {
+  display: block;
+}
+
+.start-modal h1, .win-modal h1, .lose-modal h1 {
+  color: #5fc148;
+  margin-bottom: 30px;
+}
+
+.start-modal p, .win-modal p, .lose-modal p {
+  margin-bottom: 30px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 1;
+  display: block;
 }
