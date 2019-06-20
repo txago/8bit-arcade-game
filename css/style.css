@@ -74,6 +74,7 @@ button:hover, button:active {
   border-top: 4px solid #192033;
   border-bottom: 4px solid #5fc148;
   padding: 10px 25px 6px;
+  cursor: pointer;
 }
 
 .start-modal, .win-modal, .lose-modal {
