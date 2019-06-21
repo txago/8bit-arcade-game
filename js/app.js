@@ -78,7 +78,7 @@ function startGame() {
   startModal.setAttribute('style', 'display: none;');
   overlay.setAttribute('style', 'display: none;');
   restartPosition();
-}
+};
 
 // Win Game Function
 function winGame() {
@@ -99,13 +99,13 @@ function restartGame() {
   loseModal.setAttribute('style', 'display: none;');
   overlay.setAttribute('style', 'display: none;');
   restartPosition();
-}
+};
 
 // Restart Player Position Function
 function restartPosition() {
   player.x = 202; // Initial position
   player.y = 377; // Initial position
-}
+};
 
 // handleInput
 document.addEventListener('keyup', function(e) {
