@@ -1,20 +1,11 @@
-# Classic Arcade Game Clone Project
-
-## Table of Contents
-
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+# 8 Bit Arcade Game
+This is the third project from the Front-End Web Developer Nanodegree by Udacity. It's an arcade game made with JavaScript, which I rebranded as "8 Bit Arcade Game", in which the user needs to move a character across the field without colliding with enemy bugs.
 
 ## Instructions
+* To play the game, [access this link](https://txago.github.io/8bit-arcade-game/)
+* Click on the **Let's Start** button to begin a new game
+* Use your keyboard arrows to go through the field up until the water
+* Be careful and avoid colliding with the bugs!
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
-
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
-
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Resources
+* [Classic Arcade Game Clone Project](https://github.com/udacity/frontend-nanodegree-arcade-game) by [Udacity](https://github.com/udacity)
